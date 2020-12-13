@@ -1,5 +1,7 @@
 # Number_File
- An app to number your all your files in a folder.
+A simple app to number your files in a folder. 
+Have you had a situation where you downloaded your fav series and they were not in order? You have to number each of them manually. 
+This simple app makes numbering your files a breeze just by dragging. 
 
 
 ## How it works
