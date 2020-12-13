@@ -41,7 +41,7 @@ if(isset($_POST["showFiles"])) {
         echo "</div>";
         echo "<br>";
         closedir($handle);
-        echo "<button id='rename'>Rename Your Files</button>";
+        echo "<button id='rename'>Number Your Files</button>";
     }
 }
 
