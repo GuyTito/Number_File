@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sort_web_dev</title>
+    <title>Number Files</title>
     <style>
         .draggable {margin: 0.5rem;padding: 0.5rem;background-color: #F5F5F5;border: 1px solid black;cursor: move;width: 60%;}
         .dragging {opacity: 0.01;}
@@ -133,7 +133,7 @@ var draggables = document.querySelectorAll('.draggable')
     var path = document.querySelector('p > em').textContent;
     numberedFiles.push(path);
     var data = numberedFiles.join('*');
-    window.location = 'sort_web_dev.php?data=' + data;
+    window.location = 'index.php?data=' + data;
 })
 
 
